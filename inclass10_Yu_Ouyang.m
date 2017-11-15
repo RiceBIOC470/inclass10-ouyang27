@@ -1,6 +1,11 @@
 %In this directory, you will find some example data, which is a 300x8
 %array stored in a .mat file. Image these are measurements for 300 genes are 8 different time
 %points
+%GB comments
+1) 100 
+2) 0 The number of eigenvalues is reflected by the number of variables or dimensions. In this question, there are 8 time points and therefore 8 dimensions. The question asks, how many dimensions are necessary to explain the data. The eigenvalues for each dimension is a number that describes the variance for that given variable or dimension. You can see that the variance then decreases as time moves on. Now we need to determine the number of dimensions that most contribute to changes we observe in the data. We see that the eigenvalues for the first two are much larger than the rest of the values, and therefore contribute most to the data. 
+3) 90. Not really the most appropriate graphical representation. Data should be represented as points without lines. 
+overall: 63
 
 %1. Use matlab to perform pca on this data, getting the transformation
 %matrix, the transformed data, and the eigenvalues.
